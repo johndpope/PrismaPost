@@ -1,0 +1,610 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5081CF7008BD45941E41163B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 86DFACC1652EDEE76495365D /* libPods.a */; };
+		A85320301D59DC2800004CDE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A853202F1D59DC2800004CDE /* main.m */; };
+		A85320331D59DC2800004CDE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A85320321D59DC2800004CDE /* AppDelegate.m */; };
+		A85320361D59DC2800004CDE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A85320351D59DC2800004CDE /* ViewController.m */; };
+		A85320391D59DC2800004CDE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A85320371D59DC2800004CDE /* Main.storyboard */; };
+		A853203B1D59DC2800004CDE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A853203A1D59DC2800004CDE /* Assets.xcassets */; };
+		A853203E1D59DC2800004CDE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A853203C1D59DC2800004CDE /* LaunchScreen.storyboard */; };
+		A85320491D59DC2800004CDE /* PrismaPostTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A85320481D59DC2800004CDE /* PrismaPostTests.m */; };
+		A85320541D59DC2800004CDE /* PrismaPostUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A85320531D59DC2800004CDE /* PrismaPostUITests.m */; };
+		A85320631D59DDAB00004CDE /* YYHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = A85320611D59DDAB00004CDE /* YYHelper.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A85320451D59DC2800004CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85320231D59DC2800004CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A853202A1D59DC2800004CDE;
+			remoteInfo = PrismaPost;
+		};
+		A85320501D59DC2800004CDE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A85320231D59DC2800004CDE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A853202A1D59DC2800004CDE;
+			remoteInfo = PrismaPost;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3CF0B4366E08A287D0305E40 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		557E5D26D6EAE4AAAAC7FF13 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		86DFACC1652EDEE76495365D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A853202B1D59DC2800004CDE /* PrismaPost.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrismaPost.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A853202F1D59DC2800004CDE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A85320311D59DC2800004CDE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A85320321D59DC2800004CDE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A85320341D59DC2800004CDE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A85320351D59DC2800004CDE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A85320381D59DC2800004CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A853203A1D59DC2800004CDE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A853203D1D59DC2800004CDE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A853203F1D59DC2800004CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85320441D59DC2800004CDE /* PrismaPostTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrismaPostTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85320481D59DC2800004CDE /* PrismaPostTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrismaPostTests.m; sourceTree = "<group>"; };
+		A853204A1D59DC2800004CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A853204F1D59DC2800004CDE /* PrismaPostUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PrismaPostUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A85320531D59DC2800004CDE /* PrismaPostUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrismaPostUITests.m; sourceTree = "<group>"; };
+		A85320551D59DC2800004CDE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A85320611D59DDAB00004CDE /* YYHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YYHelper.mm; sourceTree = "<group>"; };
+		A85320621D59DDAB00004CDE /* YYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYHelper.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A85320281D59DC2800004CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5081CF7008BD45941E41163B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85320411D59DC2800004CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A853204C1D59DC2800004CDE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A85320221D59DC2800004CDE = {
+			isa = PBXGroup;
+			children = (
+				A853202D1D59DC2800004CDE /* PrismaPost */,
+				A85320471D59DC2800004CDE /* PrismaPostTests */,
+				A85320521D59DC2800004CDE /* PrismaPostUITests */,
+				A853202C1D59DC2800004CDE /* Products */,
+				BDDC89F3AE3F0B2D589005F8 /* Pods */,
+				BF82E823EAE9FCAB251834E5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A853202C1D59DC2800004CDE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A853202B1D59DC2800004CDE /* PrismaPost.app */,
+				A85320441D59DC2800004CDE /* PrismaPostTests.xctest */,
+				A853204F1D59DC2800004CDE /* PrismaPostUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A853202D1D59DC2800004CDE /* PrismaPost */ = {
+			isa = PBXGroup;
+			children = (
+				A85320611D59DDAB00004CDE /* YYHelper.mm */,
+				A85320621D59DDAB00004CDE /* YYHelper.h */,
+				A85320311D59DC2800004CDE /* AppDelegate.h */,
+				A85320321D59DC2800004CDE /* AppDelegate.m */,
+				A85320341D59DC2800004CDE /* ViewController.h */,
+				A85320351D59DC2800004CDE /* ViewController.m */,
+				A85320371D59DC2800004CDE /* Main.storyboard */,
+				A853203A1D59DC2800004CDE /* Assets.xcassets */,
+				A853203C1D59DC2800004CDE /* LaunchScreen.storyboard */,
+				A853203F1D59DC2800004CDE /* Info.plist */,
+				A853202E1D59DC2800004CDE /* Supporting Files */,
+			);
+			path = PrismaPost;
+			sourceTree = "<group>";
+		};
+		A853202E1D59DC2800004CDE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A853202F1D59DC2800004CDE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A85320471D59DC2800004CDE /* PrismaPostTests */ = {
+			isa = PBXGroup;
+			children = (
+				A85320481D59DC2800004CDE /* PrismaPostTests.m */,
+				A853204A1D59DC2800004CDE /* Info.plist */,
+			);
+			path = PrismaPostTests;
+			sourceTree = "<group>";
+		};
+		A85320521D59DC2800004CDE /* PrismaPostUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A85320531D59DC2800004CDE /* PrismaPostUITests.m */,
+				A85320551D59DC2800004CDE /* Info.plist */,
+			);
+			path = PrismaPostUITests;
+			sourceTree = "<group>";
+		};
+		BDDC89F3AE3F0B2D589005F8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CF0B4366E08A287D0305E40 /* Pods.debug.xcconfig */,
+				557E5D26D6EAE4AAAAC7FF13 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF82E823EAE9FCAB251834E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				86DFACC1652EDEE76495365D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A853202A1D59DC2800004CDE /* PrismaPost */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A85320581D59DC2800004CDE /* Build configuration list for PBXNativeTarget "PrismaPost" */;
+			buildPhases = (
+				98E35269F65E93074EEF4D78 /* Check Pods Manifest.lock */,
+				A85320271D59DC2800004CDE /* Sources */,
+				A85320281D59DC2800004CDE /* Frameworks */,
+				A85320291D59DC2800004CDE /* Resources */,
+				1C96E2D1335C1888158B74B1 /* Embed Pods Frameworks */,
+				BB022C00EF3E0ADA2DF49EAC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PrismaPost;
+			productName = PrismaPost;
+			productReference = A853202B1D59DC2800004CDE /* PrismaPost.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A85320431D59DC2800004CDE /* PrismaPostTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A853205B1D59DC2800004CDE /* Build configuration list for PBXNativeTarget "PrismaPostTests" */;
+			buildPhases = (
+				A85320401D59DC2800004CDE /* Sources */,
+				A85320411D59DC2800004CDE /* Frameworks */,
+				A85320421D59DC2800004CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85320461D59DC2800004CDE /* PBXTargetDependency */,
+			);
+			name = PrismaPostTests;
+			productName = PrismaPostTests;
+			productReference = A85320441D59DC2800004CDE /* PrismaPostTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A853204E1D59DC2800004CDE /* PrismaPostUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A853205E1D59DC2800004CDE /* Build configuration list for PBXNativeTarget "PrismaPostUITests" */;
+			buildPhases = (
+				A853204B1D59DC2800004CDE /* Sources */,
+				A853204C1D59DC2800004CDE /* Frameworks */,
+				A853204D1D59DC2800004CDE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A85320511D59DC2800004CDE /* PBXTargetDependency */,
+			);
+			name = PrismaPostUITests;
+			productName = PrismaPostUITests;
+			productReference = A853204F1D59DC2800004CDE /* PrismaPostUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A85320231D59DC2800004CDE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "zj-dt0094";
+				TargetAttributes = {
+					A853202A1D59DC2800004CDE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GWM79UVWJ8;
+					};
+					A85320431D59DC2800004CDE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GWM79UVWJ8;
+						TestTargetID = A853202A1D59DC2800004CDE;
+					};
+					A853204E1D59DC2800004CDE = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = GWM79UVWJ8;
+						TestTargetID = A853202A1D59DC2800004CDE;
+					};
+				};
+			};
+			buildConfigurationList = A85320261D59DC2800004CDE /* Build configuration list for PBXProject "PrismaPost" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A85320221D59DC2800004CDE;
+			productRefGroup = A853202C1D59DC2800004CDE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A853202A1D59DC2800004CDE /* PrismaPost */,
+				A85320431D59DC2800004CDE /* PrismaPostTests */,
+				A853204E1D59DC2800004CDE /* PrismaPostUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A85320291D59DC2800004CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A853203E1D59DC2800004CDE /* LaunchScreen.storyboard in Resources */,
+				A853203B1D59DC2800004CDE /* Assets.xcassets in Resources */,
+				A85320391D59DC2800004CDE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85320421D59DC2800004CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A853204D1D59DC2800004CDE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1C96E2D1335C1888158B74B1 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98E35269F65E93074EEF4D78 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BB022C00EF3E0ADA2DF49EAC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A85320271D59DC2800004CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85320361D59DC2800004CDE /* ViewController.m in Sources */,
+				A85320631D59DDAB00004CDE /* YYHelper.mm in Sources */,
+				A85320331D59DC2800004CDE /* AppDelegate.m in Sources */,
+				A85320301D59DC2800004CDE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A85320401D59DC2800004CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85320491D59DC2800004CDE /* PrismaPostTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A853204B1D59DC2800004CDE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A85320541D59DC2800004CDE /* PrismaPostUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A85320461D59DC2800004CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A853202A1D59DC2800004CDE /* PrismaPost */;
+			targetProxy = A85320451D59DC2800004CDE /* PBXContainerItemProxy */;
+		};
+		A85320511D59DC2800004CDE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A853202A1D59DC2800004CDE /* PrismaPost */;
+			targetProxy = A85320501D59DC2800004CDE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A85320371D59DC2800004CDE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A85320381D59DC2800004CDE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A853203C1D59DC2800004CDE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A853203D1D59DC2800004CDE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A85320561D59DC2800004CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A85320571D59DC2800004CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A85320591D59DC2800004CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CF0B4366E08A287D0305E40 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrismaPost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.PrismaPost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A853205A1D59DC2800004CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 557E5D26D6EAE4AAAAC7FF13 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PrismaPost/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.PrismaPost;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A853205C1D59DC2800004CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrismaPostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.PrismaPostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrismaPost.app/PrismaPost";
+			};
+			name = Debug;
+		};
+		A853205D1D59DC2800004CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PrismaPostTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.PrismaPostTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PrismaPost.app/PrismaPost";
+			};
+			name = Release;
+		};
+		A853205F1D59DC2800004CDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrismaPostUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.PrismaPostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrismaPost;
+			};
+			name = Debug;
+		};
+		A85320601D59DC2800004CDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PrismaPostUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = wswm.PrismaPostUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PrismaPost;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A85320261D59DC2800004CDE /* Build configuration list for PBXProject "PrismaPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85320561D59DC2800004CDE /* Debug */,
+				A85320571D59DC2800004CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A85320581D59DC2800004CDE /* Build configuration list for PBXNativeTarget "PrismaPost" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A85320591D59DC2800004CDE /* Debug */,
+				A853205A1D59DC2800004CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A853205B1D59DC2800004CDE /* Build configuration list for PBXNativeTarget "PrismaPostTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A853205C1D59DC2800004CDE /* Debug */,
+				A853205D1D59DC2800004CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A853205E1D59DC2800004CDE /* Build configuration list for PBXNativeTarget "PrismaPostUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A853205F1D59DC2800004CDE /* Debug */,
+				A85320601D59DC2800004CDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A85320231D59DC2800004CDE /* Project object */;
+}
